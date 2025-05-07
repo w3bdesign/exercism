@@ -13,7 +13,7 @@
     "@babel/core": "7.27.1",
     "@babel/preset-env": "7.27.1",
     "@types/jest": "29.5.14",
-    "@types/node": "22.15.3",
+    "@types/node": "22.15.15",
     "@babel/eslint-parser": "7.27.1",
     "babel-jest": "29.7.0",
     "eslint": "8.57.1",
