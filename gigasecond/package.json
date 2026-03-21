@@ -31,5 +31,8 @@
     "lint-test": "eslint . && jest --no-cache ./* "
   },
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "overrides": {
+    "minimatch": "3.1.5"
+  }
 }
