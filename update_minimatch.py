@@ -40,7 +40,7 @@ def update_minimatch_override(target_version="3.1.5"):
         directory = os.path.dirname(filepath) or "."
         print(f"\n--- npm install in {directory} ---")
         result = subprocess.run(
-            ["npm", "install"],
+            ["npm", "install", "--legacy-peer-deps"],
             cwd=directory,
             capture_output=True,
             text=True,
