@@ -10,15 +10,9 @@
     "jest": true
   },
   "extends": [
-    "eslint:recommended",
-    "plugin:import/errors",
-    "plugin:import/warnings"
+    "eslint:recommended"
   ],
   "rules": {
-    "linebreak-style": "off",
-    "import/extensions": "off",
-    "import/no-default-export": "off",
-    "import/no-unresolved": "off",
-    "import/prefer-default-export": "off"
+    "linebreak-style": "off"
   }
 }
